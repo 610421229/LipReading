@@ -8,7 +8,7 @@ load('TotalFace');
     end
    
   total_image=reshape(total_image,1,10800);
-  total_image=cell2mat(total_image);
+  total_image=cell2mat(total_image); %123456
  total_image=reshape(total_image,96,96,20,540);
  
  for i = 1 : 6
